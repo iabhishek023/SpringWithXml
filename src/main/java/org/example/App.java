@@ -14,6 +14,9 @@ public class App
         Desktop dt=context.getBean(Desktop.class);
         dt.compile();
 
+        Desktop dt1=context.getBean(Desktop.class);
+        dt1.compile();
+
         /*Xml Approach refer spring.xml*/
         /*ApplicationContext context= new ClassPathXmlApplicationContext("spring.xml");
         Alien obj1=context.getBean("alien", Alien.class);
