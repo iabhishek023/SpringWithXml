@@ -2,17 +2,23 @@ package org.example;
 
 public class Alien {
     int age;
-//    private Laptop lap;
     private Computer com;
+
+    public int getAge(){
+        return age;
+    }
+    public void setAge(int age){
+        this.age=age;
+    }
 
     public Computer getCom() {
         return com;
     }
-
     public void setCom(Computer com) {
         this.com = com;
     }
 
+//    private Laptop lap;
 //    public Laptop getLap() {
 //        return lap;
 //    }
@@ -22,13 +28,6 @@ public class Alien {
 //    }
 
 
-
-    public int getAge(){
-        return age;
-    }
-    public void setAge(int age){
-        this.age=age;
-    }
     public void code(){
         com.compile();
         System.out.println("Let's code");
